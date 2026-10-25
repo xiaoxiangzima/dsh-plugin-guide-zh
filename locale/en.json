@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Plugin Guide (Chinese)",
+    "description": "Explains installed plugins and skills in Chinese, and adds a 技能 button beside the composer that inserts /skill-name."
+  }
+}

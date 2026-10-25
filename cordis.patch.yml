@@ -1,0 +1,5 @@
+# Plugin Guide bundle layer — adds one read-only "中文说明" tab next to the
+# Plugins list, plus a small Host route that reports the live plugin list.
+- insert:
+    - id: plugin-guide-zh
+      name: 'dsh-plugin-guide-zh'

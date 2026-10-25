@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Plugin guide">
+  <defs>
+    <linearGradient id="pg-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B9BFF"/>
+      <stop offset="1" stop-color="#2B52C8"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#pg-bg)"/>
+  <path d="M15 18h34a6 6 0 0 1 6 6v16a6 6 0 0 1-6 6H30l-9 8v-8h-6a6 6 0 0 1-6-6V24a6 6 0 0 1 6-6z" fill="#FFFFFF" fill-opacity="0.12"/>
+  <text x="19" y="43" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">文</text>
+  <text x="41" y="34" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" fill-opacity="0.9">A</text>
+</svg>

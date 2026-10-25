@@ -1,0 +1,4 @@
+node_modules/
+.zh-cache.json
+*.log
+.DS_Store

@@ -1,0 +1,65 @@
+{
+  "name": "dsh-plugin-guide-zh",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DeepSeek Harness 的插件与技能中文说明：中文列表、一键插入，模型自动翻译并本地缓存。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "skills",
+    "chinese",
+    "zh",
+    "localization",
+    "i18n"
+  ],
+  "license": "MIT",
+  "author": "xiaoxiangzima",
+  "homepage": "https://github.com/xiaoxiangzima/dsh-plugin-guide-zh#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoxiangzima/dsh-plugin-guide-zh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaoxiangzima/dsh-plugin-guide-zh/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings-plugins",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    },
+    "compatibility": {
+      "dsh": ">=0.2.1-rc.3 <0.3.0",
+      "node": ">=20"
+    }
+  }
+}
