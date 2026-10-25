@@ -13,11 +13,19 @@
 
 ## 安装
 
+从 GitHub 装（不需要 npm 发布）：
+
+```bash
+dsh plugin add github:xiaoxiangzima/dsh-plugin-guide-zh
+```
+
+npm 发布后（等价）：
+
 ```bash
 dsh plugin add dsh-plugin-guide-zh
 ```
 
-或在界面里：设置 → 插件 →「已装管理」→ 安装 `dsh-plugin-guide-zh`，然后刷新页面。
+或在界面里：设置 → 插件 →「已装管理」→ 安装上面的 spec，然后刷新页面。
 
 ## 使用
 
